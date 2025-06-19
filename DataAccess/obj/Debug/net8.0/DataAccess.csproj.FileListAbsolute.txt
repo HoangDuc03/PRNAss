@@ -1,0 +1,17 @@
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\BusinessObject.dll
+D:\Assignment01Solution_HE173344\DataAccess\bin\Debug\net8.0\BusinessObject.pdb
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\Assignment01Solution_HE173344\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
