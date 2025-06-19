@@ -42,12 +42,12 @@ namespace eStoreAPI.Controllers
             {
                 if (product == null || product.ProductId == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 var existingProduct = _productRepository.GetId((int)product.ProductId);
                 if (existingProduct == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 _mapper.Map(product, existingProduct);
                 _productRepository.Update(existingProduct);
@@ -55,7 +55,6 @@ namespace eStoreAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }
@@ -66,14 +65,13 @@ namespace eStoreAPI.Controllers
             {
                 if (product == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 _productRepository.Add(product);
                 return true;
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }

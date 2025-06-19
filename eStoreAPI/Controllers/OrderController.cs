@@ -40,12 +40,12 @@ namespace eStoreAPI.Controllers
             {
                 if (order == null || order.OrderId == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 var existingOrder = _orderRepository.GetId((int)order.OrderId);
                 if (existingOrder == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 _mapper.Map(order, existingOrder);
                 _orderRepository.Update(existingOrder);
@@ -53,7 +53,6 @@ namespace eStoreAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }
@@ -64,7 +63,7 @@ namespace eStoreAPI.Controllers
             {
                 if (order == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 else
                 {
@@ -75,7 +74,6 @@ namespace eStoreAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }
@@ -87,15 +85,36 @@ namespace eStoreAPI.Controllers
                 var order = _orderRepository.GetId(id);
                 if (order == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false;
                 }
                 _orderRepository.Remove(id);
                 return true;
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
+            }
+        }
+        [HttpGet("Report")]
+        public IActionResult GetSalesReport(DateTime startDate, DateTime endDate)
+        {
+            if (startDate > endDate)
+            {
+                return BadRequest("Start Date cannot be after End Date.");
+            }
+
+            try
+            {
+                var orders = _orderRepository.GetOrdersByDateRange(startDate, endDate);
+                if (orders == null || !orders.Any())
+                {
+                    return NotFound("No orders found in the given date range.");
+                }
+                return Ok(orders);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
     }

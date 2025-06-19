@@ -1,5 +1,6 @@
 ﻿using BusinessObject.Models;
 using DataAccess.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 public class GenericRepository<T> : IRepository<T> where T : class
@@ -50,5 +51,24 @@ public class GenericRepository<T> : IRepository<T> where T : class
     {
         _context.Remove(GetId(id));
         _context.SaveChanges();
+    }
+    public IEnumerable<Order> GetOrdersByDateRange(DateOnly startDate, DateOnly endDate)
+    {
+        var ordersInDateRange = _context.Orders
+                                        .Include(o => o.OrderDetails)
+                                        .ThenInclude(od => od.Product)
+                                        .Include(o => o.Member) 
+                                        .Where(o => o.OrderDate >= startDate && o.OrderDate <= endDate)
+                                        .ToList(); 
+
+        var sortedOrders = ordersInDateRange
+            .Select(o => new {
+                Order = o,
+                TotalSales = o.OrderDetails.Sum(od => od.UnitPrice * od.Quantity * (1 - (decimal)od.Discount))
+            })
+            .OrderByDescending(o => o.TotalSales)
+            .Select(o => o.Order);
+
+        return sortedOrders.ToList();
     }
 }

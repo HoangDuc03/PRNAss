@@ -53,12 +53,12 @@ namespace eStoreAPI.Controllers
             {
                 if (member == null || member.MemberId == null)
                 {
-                    return false; // Hoặc ném ngoại lệ tùy theo logic của bạn
+                    return false; 
                 }
                 var existingMember = _memberRepository.GetId((int)member.MemberId);
                 if (existingMember == null)
                 {
-                    return false; // Hoặc ném ngoại lệ nếu không tìm thấy thành viên
+                    return false; 
                 }
 
                 _mapper.Map(member, existingMember);
@@ -84,11 +84,11 @@ namespace eStoreAPI.Controllers
             {
                 if (member == null)
                 {
-                    return -1; // Hoặc ném ngoại lệ tùy theo logic của bạn
+                    return -1; 
                 }
                 if (_memberRepository.GetAll().Any(x => x.Email == member.Email))
                 {
-                    return 0; // Email đã tồn tại
+                    return 0; 
                 }
                 var newMember = _mapper.Map<Member>(member);
                 _memberRepository.Add(newMember);
@@ -115,7 +115,7 @@ namespace eStoreAPI.Controllers
                 return new MemberDto();
             }
             var result = _mapper.Map<MemberDto>(mem);
-            result.Role = 1; // Giả sử vai trò 1 là thành viên thường
+            result.Role = 1; 
             return result;
         }
 

@@ -40,12 +40,12 @@ namespace eStoreAPI.Controllers
             {
                 if (category == null || category.CategoryId == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 var existingCategory = _categoryRepository.GetId((int)category.CategoryId);
                 if (existingCategory == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false;
                 }
                 _mapper.Map(category, existingCategory);
                 _categoryRepository.Update(existingCategory);
@@ -53,7 +53,6 @@ namespace eStoreAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }
@@ -64,14 +63,13 @@ namespace eStoreAPI.Controllers
             {
                 if (category == null)
                 {
-                    return false; // Or throw an exception based on your logic
+                    return false; 
                 }
                 _categoryRepository.Add(category);
                 return true;
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }
@@ -85,7 +83,6 @@ namespace eStoreAPI.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as needed
                 return false;
             }
         }

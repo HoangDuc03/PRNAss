@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessObject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -16,5 +17,6 @@ namespace DataAccess.Repositories
         IEnumerable<T> GetAll();
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
         void SaveChanges();
+        IEnumerable<Order> GetOrdersByDateRange(DateTime startDate, DateTime endDate);
     }
 }
