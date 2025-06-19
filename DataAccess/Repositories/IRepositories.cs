@@ -11,7 +11,8 @@ namespace DataAccess.Repositories
     {
         T Add(T entity);
         T Update(T entity);
-        T GetId(Guid id);
+        T GetId(int id);
+        void Remove(int id);
         IEnumerable<T> GetAll();
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
         void SaveChanges();

@@ -27,11 +27,10 @@ public class GenericRepository<T> : IRepository<T> where T : class
         return entity;
     }
 
-    public T GetId(Guid id)
+    public T GetId(int id)
     {
         return _context.Set<T>().Find(id);
     }
-
     public IEnumerable<T> GetAll()
     {
         return _context.Set<T>().ToList();
@@ -44,6 +43,12 @@ public class GenericRepository<T> : IRepository<T> where T : class
 
     public void SaveChanges()
     {
+        _context.SaveChanges();
+    }
+
+    public void Remove(int id)
+    {
+        _context.Remove(GetId(id));
         _context.SaveChanges();
     }
 }

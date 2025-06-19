@@ -2,7 +2,7 @@
   {
     "ContainingType": "eStoreAPI.Controllers.MemberController",
     "Method": "getAll",
-    "RelativePath": "api/Member",
+    "RelativePath": "api/Member/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[BusinessObject.Models.Member, BusinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "eStoreAPI.Controllers.MemberController",
+    "Method": "Login",
+    "RelativePath": "api/Member/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberDto",
+        "Type": "DataAccess.Dto.MemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccess.Dto.MemberDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

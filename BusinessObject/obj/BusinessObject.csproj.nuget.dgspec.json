@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assignment01Solution_HE173344\\BusinessObject\\BusinessObject.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\Assignment01Solution_HE173344\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assignment01Solution_HE173344\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\Assignment01Solution_HE173344\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Assignment01Solution_HE173344\\BusinessObject\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

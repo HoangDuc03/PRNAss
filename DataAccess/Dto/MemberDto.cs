@@ -8,7 +8,7 @@ namespace DataAccess.Dto
 {
     public class MemberDto
     {
-        public int MemberId { get; set; }
+        public int? MemberId { get; set; }
 
         public string? Email { get; set; }
 
@@ -19,5 +19,7 @@ namespace DataAccess.Dto
         public string? Country { get; set; }
 
         public string? Password { get; set; }
+
+        public int? Role { get; set; }
     }
 }
