@@ -10,6 +10,7 @@ namespace eStoreAPI.AutoMapping
         {
             // Tạo mapping 2 chiều giữa Member và MemberDto
             CreateMap<Member, MemberDto>().ReverseMap();
+            CreateMap<Member, MemberCreateDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<Order, OrderDto>().ReverseMap();
             CreateMap<OrderDetail, OrderDetailDto>().ReverseMap();

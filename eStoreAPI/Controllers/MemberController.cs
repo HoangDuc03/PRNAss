@@ -74,7 +74,8 @@ namespace eStoreAPI.Controllers
         [HttpGet("Delete")]
         public async Task<bool> Delete(int id)
         {
-            _memberRepository.Remove(id);
+            _memberRepository.RemoveMember(id);
+
             return true;
         }
         [HttpPost("Create")]
@@ -90,6 +91,7 @@ namespace eStoreAPI.Controllers
                 {
                     return 0; 
                 }
+                
                 var newMember = _mapper.Map<Member>(member);
                 _memberRepository.Add(newMember);
                 return newMember.MemberId;

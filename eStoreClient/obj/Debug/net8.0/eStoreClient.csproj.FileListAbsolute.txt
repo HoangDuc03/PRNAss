@@ -342,3 +342,5 @@ C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\obj\Debug\net8.0\eStoreC
 C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\obj\Debug\net8.0\eStoreClient.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\obj\Debug\net8.0\ref\eStoreClient.dll
 C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Admin\Documents\GitHub\PRM\PRNAss\eStoreClient\bin\Debug\net8.0\DataAccess.pdb

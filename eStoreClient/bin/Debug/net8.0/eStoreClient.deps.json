@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "BusinessObject": "1.0.0",
+          "DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
@@ -1072,6 +1073,20 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "BusinessObject": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1649,6 +1664,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "BusinessObject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

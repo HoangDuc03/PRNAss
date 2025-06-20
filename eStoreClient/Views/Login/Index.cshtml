@@ -10,10 +10,10 @@
         <section>
             <form id="loginForm" asp-action="Index" method="post">
                 <hr />
-                @if (ViewBag.error != null)
+                @if (ViewBag.Message != null)
                 {
                     <div class="alert alert-danger" role="alert">
-                        @ViewBag.error
+                        @ViewBag.Message
                     </div>
                 }
                 <div class="form-floating mb-3">

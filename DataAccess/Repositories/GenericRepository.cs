@@ -49,7 +49,8 @@ public class GenericRepository<T> : IRepository<T> where T : class
 
     public void Remove(int id)
     {
-        _context.Remove(GetId(id));
+        var entity = GetId(id);
+        _context.Remove(entity);
         _context.SaveChanges();
     }
     public IEnumerable<Order> GetOrdersByDateRange(DateOnly startDate, DateOnly endDate)
@@ -70,5 +71,29 @@ public class GenericRepository<T> : IRepository<T> where T : class
             .Select(o => o.Order);
 
         return sortedOrders.ToList();
+    }
+    public void RemoveMember(int memberId)
+    {
+        // Tìm thành viên cần xóa
+        var member = _context.Members.Include(m => m.Orders) // Nạp các đơn hàng liên quan
+                                     .ThenInclude(o => o.OrderDetails) // Nạp chi tiết đơn hàng
+                                     .SingleOrDefault(m => m.MemberId == memberId);
+
+        if (member != null)
+        {
+            // Xóa tất cả OrderDetails của các đơn hàng
+            foreach (var order in member.Orders)
+            {
+                _context.OrderDetails.RemoveRange(order.OrderDetails);
+            }
+
+            // Xóa tất cả Orders
+            _context.Orders.RemoveRange(member.Orders);
+
+            // Cuối cùng, xóa Member
+            _context.Members.Remove(member);
+
+            _context.SaveChanges();
+        }
     }
 }

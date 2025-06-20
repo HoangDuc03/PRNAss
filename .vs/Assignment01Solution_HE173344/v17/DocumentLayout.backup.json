@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreclient\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|solutionrelative:estoreclient\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreclient\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|solutionrelative:estoreclient\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\dataaccess\\dto\\membercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dto\\membercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA3F57-5998-427E-AF3E-9FEDC8F2452C}|BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\businessobject\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA3F57-5998-427E-AF3E-9FEDC8F2452C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 188,
+          "SelectedChildIndex": 192,
           "Children": [
             {
               "$type": "Bookmark",
@@ -782,54 +786,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "eStoreAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAApAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Models\\Member.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\Models\\Member.cs",
+              "RelativeToolTip": "BusinessObject\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:13:36.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "eStoreAPI\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:13:35.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "eStoreAPI\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:13:34.787Z",
+              "WhenOpened": "2025-06-20T12:42:53.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MemberCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Dto\\MemberCreate.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Dto\\MemberCreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Dto\\MemberCreate.cs",
+              "RelativeToolTip": "DataAccess\\Dto\\MemberCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:30:07.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "eStoreClient\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "eStoreClient\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T12:22:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "eStoreClient\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "eStoreClient\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:11:42.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MemberController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\MemberController.cs",
               "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\MemberController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\MemberController.cs",
               "RelativeToolTip": "eStoreAPI\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAmwGIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T19:13:27.623Z",
+              "WhenOpened": "2025-06-20T12:07:38.404Z",
               "EditorCaption": ""
             }
           ]

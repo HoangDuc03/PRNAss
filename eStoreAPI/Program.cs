@@ -14,6 +14,18 @@ namespace eStoreAPI
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MyCnn")),
                 ServiceLifetime.Singleton);
 
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+            builder.Services.AddCors(options =>
+            {
+                
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.WithOrigins(builder.Configuration["Client"])
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                                  });
+            });
             builder.Services.AddSingleton(typeof(IRepository<>), typeof(GenericRepository<>));
             builder.Services.AddAutoMapper(typeof(AutoMap));
             // Add services to the container.
@@ -27,7 +39,7 @@ namespace eStoreAPI
             
 
             var app = builder.Build();
-
+            app.UseCors(MyAllowSpecificOrigins);
             // Configure the HTTP request pipeline for development
             if (app.Environment.IsDevelopment())
             {

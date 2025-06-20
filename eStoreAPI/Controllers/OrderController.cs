@@ -96,7 +96,7 @@ namespace eStoreAPI.Controllers
             }
         }
         [HttpGet("Report")]
-        public IActionResult GetSalesReport(DateTime startDate, DateTime endDate)
+        public IActionResult GetSalesReport(DateOnly startDate, DateOnly endDate)
         {
             if (startDate > endDate)
             {

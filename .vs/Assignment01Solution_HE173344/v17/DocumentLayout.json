@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\dataaccess\\repositories\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19DE1D77-E9DC-47A9-84C0-67BC46363407}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DA4B924-A356-40EF-B082-866B8ADEED00}|eStoreAPI\\eStoreAPI.csproj|solutionrelative:estoreapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreclient\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|solutionrelative:estoreclient\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|c:\\users\\admin\\documents\\github\\prm\\prnass\\estoreclient\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1487FD-C050-4F9A-9106-AC9BCDAB04AE}|eStoreClient\\eStoreClient.csproj|solutionrelative:estoreclient\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 188,
+          "SelectedChildIndex": 191,
           "Children": [
             {
               "$type": "Bookmark",
@@ -694,6 +690,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
@@ -782,54 +782,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA1wEQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:32:31.521Z",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "eStoreClient\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "eStoreClient\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T12:22:22.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IRepositories.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Repositories\\IRepositories.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repositories\\IRepositories.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\Repositories\\IRepositories.cs",
-              "RelativeToolTip": "DataAccess\\Repositories\\IRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "eStoreClient\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreClient\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "eStoreClient\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:32:26.71Z",
+              "WhenOpened": "2025-06-20T12:11:42.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "eStoreAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T20:13:36.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MemberController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\MemberController.cs",
               "RelativeDocumentMoniker": "eStoreAPI\\Controllers\\MemberController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\eStoreAPI\\Controllers\\MemberController.cs",
               "RelativeToolTip": "eStoreAPI\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T19:13:27.623Z",
+              "WhenOpened": "2025-06-20T12:07:38.404Z",
               "EditorCaption": ""
             }
           ]

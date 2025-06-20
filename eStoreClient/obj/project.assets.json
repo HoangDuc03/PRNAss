@@ -1645,6 +1645,22 @@
         "runtime": {
           "bin/placeholder/BusinessObject.dll": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "BusinessObject": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
       }
     }
   },
@@ -4806,12 +4822,18 @@
       "type": "project",
       "path": "../BusinessObject/BusinessObject.csproj",
       "msbuildProject": "../BusinessObject/BusinessObject.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 14.0.0",
       "BusinessObject >= 1.0.0",
+      "DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
@@ -4853,6 +4875,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj": {
               "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\BusinessObject\\BusinessObject.csproj"
+            },
+            "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PRM\\PRNAss\\DataAccess\\DataAccess.csproj"
             }
           }
         }

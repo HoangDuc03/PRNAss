@@ -17,6 +17,7 @@ namespace DataAccess.Repositories
         IEnumerable<T> GetAll();
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
         void SaveChanges();
-        IEnumerable<Order> GetOrdersByDateRange(DateTime startDate, DateTime endDate);
+        IEnumerable<Order> GetOrdersByDateRange(DateOnly startDate, DateOnly endDate);
+        void RemoveMember(int memberId);
     }
 }

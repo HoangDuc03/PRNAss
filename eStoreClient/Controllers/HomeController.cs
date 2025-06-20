@@ -15,6 +15,10 @@ namespace eStoreClient.Controllers
 
         public IActionResult Index()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("User")))
+            {
+                return RedirectToAction("Index", "Login");
+            }
             return View();
         }
 
